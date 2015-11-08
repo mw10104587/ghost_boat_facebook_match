@@ -1,6 +1,6 @@
 <h1>Ghost Boat Project</h1>
 <p>
-This is a sub-project started on 11.07.2015 in the workshop of CUNY and Columbia University. Based on the assumption that people on the ghost ship know several of each others, so probably they are friends on facebook. We try to compare names of some refugee's facebook friends to the manifest, hoping that we can find more facebook accounts of refugees.
+This is a sub-project started on 11/07/2015 in the workshop held by CUNY and Columbia University. Based on the assumption that people on the ghost ship know several of each others, probably they are friends on facebook. We try to compare names of some refugee's facebook friends to the manifest, hoping that we can find more facebook accounts of refugees.
 </p>
 <p>
 This sub-project also aim to build a graph of the refugees, after we collected all of their friend lists. LOL
@@ -20,6 +20,7 @@ This sub-project also aim to build a graph of the refugees, after we collected a
 **FBFriendListExtractor.py:**
 - compares a person's facebook friends to the manifest and see whether there are similar names.
 - the main program that loads a html file in the raw folder, and outputs a txt file in the similar_names directory.
+- Use Levenshtein library to find similar strings.
 
 How to execute
 > $python python/FBFriendListExtractor.py fb_id
