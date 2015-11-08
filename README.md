@@ -1,4 +1,4 @@
-<h1>Ghost Boat Project - Facebook Name Matchingn</h1>
+<h1>Ghost Boat Project - Facebook Name Matching</h1>
 <p>
 This is a sub-project started on 11/07/2015 in the workshop held by CUNY and Columbia University. Based on the assumption that people on the ghost ship know several of each others, probably they are friends on facebook. We try to compare names of some refugee's facebook friends to the manifest, hoping that we can find more facebook accounts of refugees.
 </p>
