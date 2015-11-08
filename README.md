@@ -58,10 +58,12 @@ Save it as [FB-ID]_raw_friendlist.html into the raw directory.
 For example, in the friends page of the user "Abel Ghebru", we have this url in our browser.
 > https://www.facebook.com/abel.ghebru/friends?ref=br_rs
 
-by taking "abel.ghebru" into this website 
+by taking "barackobama" into this website 
 > http://findmyfbid.com/
+
 we can get facebook id 
-> 100001500499843
+
+> 6815841748
 
 <br>
 **Contributor:**
