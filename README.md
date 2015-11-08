@@ -28,10 +28,12 @@ How to execute
 **raw/:**
 - saves the html content copied by labor.
 - file has to be in the format [fb_id]_raw_friendlist.html
+
 <br>
 **name_mapping.csv:**
 - saves the mapping of the name between data on manifest, Facebook account name and Facebook id.
 - please input by hand. XDDD
+
 <br>
 **given_names.csv:**
 - save the manifest data
