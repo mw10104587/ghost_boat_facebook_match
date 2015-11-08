@@ -8,33 +8,32 @@ This sub-project also aim to build a graph of the refugees, after we collected a
 
 <h3>==== Directory Structure ====</h3>
 
-*---+--README
-*	+--python
-*		+--FBFriendListExtractor.py
-*	+--raw
-*	+--csv
-*		+--name_mapping.csv
-*		+--given_names.csv
+* ---+--README
+* ---+--python
+	* +--FBFriendListExtractor.py
+* ---+--raw
+* ---+--csv
+	* +--name_mapping.csv
+	* +--given_names.csv
 
 
-FBFriendListExtractor.py:
+**FBFriendListExtractor.py:**
 - compares a person's facebook friends to the manifest and see whether there are similar names.
 - the main program that loads a html file in the raw folder, and outputs a txt file in the similar_names directory.
 
-
 How to execute
-$python python/FBFriendListExtractor.py <fb_id>
+> $python python/FBFriendListExtractor.py <fb_id>
 
 
-raw/:
+**raw/:**
 - saves the html content copied by labor.
 - file has to be in the format [fb_id]_raw_friendlist.html
 
-name_mapping.csv:
+**name_mapping.csv:**
 - saves the mapping of the name between data on manifest, Facebook account name and Facebook id.
 - please input by hand. XDDD
 
-given_names.csv:
+**given_names.csv:**
 - save the manifest data
 
 
@@ -45,11 +44,13 @@ given_names.csv:
 
 
 <h3>==== How To Get Friendlist ====</h3>
+<p>
 Without being authenticated by the user, we can't access the user's friendlist by using facebook api, so here we require some labor work. By going to the /friends of a facebook user, we can scroll all the way down, until they load all of its friends. 
-
+</p>
+<p>
 By right clicking on the last friend's name (anywhere in friends section), we can press the inspct element. Traverse it's parent element by pressing "left", until we find a <div> element with class="_5h60 _30f". Right click on this element and click copy, and paste it into note pad, sublime text or any text editing application. 
 Save it as [FB-ID]_raw_friendlist.html into the raw directory.
-
+</p>
 // The way to get [FB-ID] can be learned by the following section.
 
 
@@ -62,6 +63,6 @@ by taking "abel.ghebru" into this website
 we can get facebook id 
 > 100001500499843
 
-Contributor:
--Chi-An Wang
--Mazin Sidahmed 
+**Contributor:**
+- Chi-An Wang
+- Mazin Sidahmed 
