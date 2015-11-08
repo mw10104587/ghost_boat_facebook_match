@@ -49,6 +49,7 @@ How to execute
 <p>
 Without being authenticated by the user, we can't access the user's friendlist by using facebook api, so here we require some labor work. By going to the /friends of a facebook user, we can scroll all the way down, until they load all of its friends. 
 </p>
+![Alt text](/img/readme-img-1.png?raw=true "How To Copy html")
 <p>
 By right clicking on the last friend's name (anywhere in friends section), we can press the inspct element. Traverse it's parent element by pressing "left", until we find a <div> element with class="_5h60 _30f". Right click on this element and click copy, and paste it into note pad, sublime text or any text editing application. 
 Save it as [FB-ID]_raw_friendlist.html into the raw directory.
