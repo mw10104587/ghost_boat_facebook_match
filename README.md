@@ -6,7 +6,7 @@ This is a sub-project started on 11.07.2015 in the workshop of CUNY and Columbia
 This sub-project also aim to build a graph of the refugees, after we collected all of their friend lists. LOL
 </p>
 <br>
-<h3>==== Directory Structure ====</h3>
+<h3> Directory Structure </h3>
 
 * ---+--README.md
 * ---+--python
@@ -39,13 +39,13 @@ How to execute
 - save the manifest data
 
 <br><br>
-<h3>==== Goals ====</h3>
+<h3> Goals </h3>
 1. Compare friendlist of refugee and manifest list
 2. Build refugee relationship graph
 	- by getting everyone's facebook friends, we can build a relationship graph for the refugees on the ghost boat.
 
 <br><br>
-<h3>==== How To Get Friendlist ====</h3>
+<h3> How To Get Friendlist </h3>
 <p>
 Without being authenticated by the user, we can't access the user's friendlist by using facebook api, so here we require some labor work. By going to the /friends of a facebook user, we can scroll all the way down, until they load all of its friends. 
 </p>
@@ -57,7 +57,7 @@ Save it as [FB-ID]_raw_friendlist.html into the raw directory.
 // The way to get [FB-ID] can be learned by the following section.
 
 <br><br>
-<h3>==== How to Get Facebook User Id ====</h3>
+<h3> How to Get Facebook User Id </h3>
 For example, in the friends page of the user "Abel Ghebru", we have this url in our browser.
 > https://www.facebook.com/abel.ghebru/friends?ref=br_rs
 
