@@ -27,7 +27,7 @@ How to execute
 
 <br>
 **raw/:**
-- saves the html content copied by labor.
+- saves the html content copied by hand.
 - file has to be in the format [fb_id]_raw_friendlist.html
 
 <br>
